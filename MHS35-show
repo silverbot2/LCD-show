@@ -40,6 +40,7 @@ sudo cp -rf /usr/share/X11/xorg.conf.d/10-evdev.conf /usr/share/X11/xorg.conf.d/
 echo "reboot"
 fi
 else
-echo "this is not raspberrypi kernel, no need to update touch configure, reboot"
+echo "Este kernel no es compatible , no need to update touch configure, reboot"
+echo "Por favor instale raspbian para hacer funcionar esta pantalla"
 fi
 sudo reboot
